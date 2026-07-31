@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	
-	return text.trim().slice(0,1);
+	return text.trim().charAt(0);
 }
 
 // Do not change the code below
