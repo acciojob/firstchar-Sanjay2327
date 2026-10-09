@@ -1,7 +1,10 @@
 function firstChar(text) {
   // your code here
+	if(text === " "){
+		return "";
+	}else {
 	let pran = text.trim() ;
-	return pran.charAt(0);
+	return pran.charAt(0)};
 }
 
 // Do not change the code below
